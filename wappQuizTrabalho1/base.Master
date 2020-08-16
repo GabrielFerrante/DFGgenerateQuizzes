@@ -1,0 +1,81 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="base.master.cs" Inherits="wappQuizTrabalho1._base" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+    <asp:ContentPlaceHolder ID="headBlock" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <!--stylesheet-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="CSS/styles.css" rel="stylesheet" type="text/css">
+    <link href="CSS/custom-responsive-styles.css" rel="stylesheet" type="text/css">
+    <!--scripts-->
+    <script type="text/javascript" src="SCRIPTS/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="SCRIPTS/all-plugins.js"></script>
+    <script type="text/javascript" src="SCRIPTS/plugins-activate.js"></script>
+</head>
+<body id="page-top">
+    <form id="form1" runat="server">
+        <!-- Navigation -->
+        <a class="menu-toggle rounded" href="#">
+            <i class="fa fa-bars"></i>
+        </a>
+        <nav id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a class="smooth-scroll" href="#Header"></a>
+                </li>
+                <asp:Menu ID="Menu1"
+                    runat="server"
+                    StaticDisplayLevels="1"
+                    CssClass="sidebar-brand"
+                    DynamicHoverStyle-CssClass="smooth-scroll">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="index.aspx" Value="Index" Text="Home"></asp:MenuItem>
+                        <asp:MenuItem Value="RegisterUser" Text="Cadastra-se" NavigateUrl="registerUser.aspx" />
+                    </Items>
+                </asp:Menu>
+            </ul>
+        </nav>
+        <!-- Header Starts -->
+        <section id="Banner" class="content-section">
+            <div class="container content-wrap text-center">
+                <h1>DFG Quiz Generate</h1>
+            </div>
+
+        </section>
+        <!-- Header Ends -->
+        <asp:ContentPlaceHolder ID="contentBlock" runat="server">
+        </asp:ContentPlaceHolder>
+        <footer class="footer text-center">
+            <div class="container">
+                <ul class="list-inline">
+                    <p>Siga nossas redes sociais</p>
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white mr-3" >
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white mr-3" >
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                
+                </ul>
+              
+            </div>
+        </footer>
+
+    </form>
+</body>
+</html>
