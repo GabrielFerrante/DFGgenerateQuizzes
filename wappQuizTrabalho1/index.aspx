@@ -23,7 +23,12 @@
             <div class="service-content">
               <h3>Quiz IFSP - Campus Catanduva</h3>
               <h3>Descubra o curso que mais combina com você!</h3>
-            <a class="btn btn-primary btn-xl smooth-scroll" href="#">Acesse</a>
+              <asp:HyperLink 
+                  CssClass="btn btn-primary btn-xl "
+                  NavigateUrl="~/quizIfsp.aspx" 
+                  ID="HyperLink1" 
+                  runat="server" 
+                  Text="Acesse"/>
             </div>
           </div>
         </div>

@@ -8,8 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
     <asp:ContentPlaceHolder ID="headBlock" runat="server">
     </asp:ContentPlaceHolder>
 
@@ -24,7 +22,7 @@
     <script type="text/javascript" src="SCRIPTS/plugins-activate.js"></script>
 </head>
 <body id="page-top">
-    <form id="form1" runat="server">
+    <form id="form1" runat="server" method="post">
         <!-- Navigation -->
         <a class="menu-toggle rounded" href="#">
             <i class="fa fa-bars"></i>

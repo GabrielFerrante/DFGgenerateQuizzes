@@ -73,9 +73,28 @@
   <ItemGroup>
     <Content Include="CSS\custom-responsive-styles.css" />
     <Content Include="CSS\styles.css" />
-    <Content Include="IMAGES\registerIcon.jpg" />
+    <Content Include="IMAGES\Ambientes\Escritorio.jpg" />
+    <Content Include="IMAGES\Ambientes\Laboratorio.jpg" />
+    <Content Include="IMAGES\Ambientes\Producao.jpg" />
+    <Content Include="IMAGES\Atividades\Fodinha.jpg" />
+    <Content Include="IMAGES\Atividades\PingPong.jpg" />
+    <Content Include="IMAGES\Atividades\Truco.jpg" />
+    <Content Include="IMAGES\CientistaPreferido\AdaLovelace.jpg" />
+    <Content Include="IMAGES\CientistaPreferido\EnedinaAlvesMarques.jpg" />
+    <Content Include="IMAGES\CientistaPreferido\MarieCurie.jpg" />
+    <Content Include="IMAGES\Icones\Beckers.jpg" />
+    <Content Include="IMAGES\Icones\Dawn.png" />
+    <Content Include="IMAGES\Icones\moon.png" />
+    <Content Include="IMAGES\Icones\Setup.jpg" />
+    <Content Include="IMAGES\Icones\sun.png" />
+    <Content Include="IMAGES\Icones\Torno.jpg" />
+    <Content Include="IMAGES\MinuCurso\conheça-a-automação-residencial-810x540px-810x540.png" />
+    <Content Include="IMAGES\MinuCurso\minuCurso.jpg" />
+    <Content Include="IMAGES\MinuCurso\robo-advisor-consultoria-robo.png" />
     <Content Include="index.aspx" />
+    <Content Include="quizIfsp.aspx" />
     <Content Include="registerUser.aspx" />
+    <Content Include="resultadoQuiz.aspx" />
     <Content Include="SCRIPTS\all-plugins.js" />
     <Content Include="SCRIPTS\jquery-3.2.1.min.js" />
     <Content Include="SCRIPTS\plugins-activate.js" />
@@ -97,12 +116,26 @@
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="quizIfsp.aspx.cs">
+      <DependentUpon>quizIfsp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="quizIfsp.aspx.designer.cs">
+      <DependentUpon>quizIfsp.aspx</DependentUpon>
+    </Compile>
     <Compile Include="registerUser.aspx.cs">
       <DependentUpon>registerUser.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="registerUser.aspx.designer.cs">
       <DependentUpon>registerUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="resultadoQuiz.aspx.cs">
+      <DependentUpon>resultadoQuiz.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="resultadoQuiz.aspx.designer.cs">
+      <DependentUpon>resultadoQuiz.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

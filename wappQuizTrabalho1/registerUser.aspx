@@ -113,7 +113,7 @@
                                     Display="Dynamic" />
                                 
 
-                                <label for="password">Senha</label>
+                                <label for="password">Senha (No mínimo seis letras, um caracter especial e um número)</label>
                             </div>
                             <div class="floating-label">
 
