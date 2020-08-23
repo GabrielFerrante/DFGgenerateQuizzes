@@ -8,7 +8,7 @@ namespace wappQuizTrabalho1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Page.Form.Action = "/resultadoQuiz.aspx";
+           
         }
 
         public void ClearForm(ControlCollection controls)
@@ -34,15 +34,7 @@ namespace wappQuizTrabalho1
 
         protected void btnResultado_Click(object sender, EventArgs e)
         {
-            int i;
-            string[] resultados = new string[11];
-            for (i = 1; i <= 11; i++)
-            {
-                string a = "pergunta" + i.ToString();
-                string aux = Request.Form[a];
-                resultados.Append(aux);
-            }
-            Session["resultados"] = resultados;
+            
 
 
         }

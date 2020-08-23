@@ -4,8 +4,6 @@
     <title>Quiz IFSP</title>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="contentBlock" runat="server">
-
-
    
         <!--PERGUNTA 1-->
         <asp:Label ID="lblErrorQuiz" runat="server" ForeColor="Crimson" Text=""></asp:Label>
@@ -27,7 +25,7 @@
 
                 
             </div>
-            
+           
 
         </div>
 
@@ -199,11 +197,11 @@
                 
                 <asp:Button 
                     ID="btnResultado"
-                    CssClass="btn btn-primary btn-lg" 
-                    OnClick="btnResultado_Click"  
+                    CssClass="btn btn-primary btn-lg"   
                     runat="server" 
                     Text="Resultado"
-                    PostBackUrl="~/resultadoQuiz.aspx"/>
+                    PostBackUrl="~/resultadoQuiz.aspx"
+                    />
                 
             </div>
             
