@@ -11,34 +11,43 @@ namespace wappQuizTrabalho1
 {
 
 
-    public partial class resultadoQuiz
+    public partial class confirmCadastro
     {
 
         /// <summary>
-        /// ScriptManager1 control.
+        /// lblNome control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.ScriptManager ScriptManager1;
+        protected global::System.Web.UI.WebControls.Label lblNome;
 
         /// <summary>
-        /// PieChart1 control.
+        /// lblDataNascimento control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::AjaxControlToolkit.PieChart PieChart1;
+        protected global::System.Web.UI.WebControls.Label lblDataNascimento;
 
         /// <summary>
-        /// HyperLink1 control.
+        /// lblEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink HyperLink1;
+        protected global::System.Web.UI.WebControls.Label lblEmail;
+
+        /// <summary>
+        /// btnResultado control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnResultado;
     }
 }

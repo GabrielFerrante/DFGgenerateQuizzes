@@ -71,6 +71,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="cadastroConfirmado.aspx" />
+    <Content Include="confirmaCadastro.aspx" />
     <Content Include="CSS\custom-responsive-styles.css" />
     <Content Include="CSS\styles.css" />
     <Content Include="IMAGES\Ambientes\Escritorio.jpg" />
@@ -82,6 +84,7 @@
     <Content Include="IMAGES\CientistaPreferido\AdaLovelace.jpg" />
     <Content Include="IMAGES\CientistaPreferido\EnedinaAlvesMarques.jpg" />
     <Content Include="IMAGES\CientistaPreferido\MarieCurie.jpg" />
+    <Content Include="IMAGES\congratulations.png" />
     <Content Include="IMAGES\Icones\Beckers.jpg" />
     <Content Include="IMAGES\Icones\Dawn.png" />
     <Content Include="IMAGES\Icones\moon.png" />
@@ -107,6 +110,20 @@
     </Compile>
     <Compile Include="base.Master.designer.cs">
       <DependentUpon>base.Master</DependentUpon>
+    </Compile>
+    <Compile Include="cadastroConfirmado.aspx.cs">
+      <DependentUpon>cadastroConfirmado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cadastroConfirmado.aspx.designer.cs">
+      <DependentUpon>cadastroConfirmado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="confirmaCadastro.aspx.cs">
+      <DependentUpon>confirmaCadastro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="confirmaCadastro.aspx.designer.cs">
+      <DependentUpon>confirmaCadastro.aspx</DependentUpon>
     </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
@@ -147,6 +164,7 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="Web.sitemap" />
   </ItemGroup>
   <ItemGroup />
   <PropertyGroup>

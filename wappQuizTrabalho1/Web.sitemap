@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="index.aspx" title="Home"  description="Home">
+    <siteMapNode url="quizIfsp.aspx" title="Quiz Ifsp"  description="Quiz Ifsp" />
+    <siteMapNode url="registerUser.aspx" title="Cadastro de usuário"  description="Cadastro de usuário" >
+      <siteMapNode url="confirmaCadastro.aspx" title="Confirmação" ></siteMapNode>
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

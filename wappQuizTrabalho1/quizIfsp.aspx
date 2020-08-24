@@ -6,13 +6,15 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="contentBlock" runat="server">
    
         <!--PERGUNTA 1-->
-        <asp:Label ID="lblErrorQuiz" runat="server" ForeColor="Crimson" Text=""></asp:Label>
-        <div class="row">
+        
+        <div class="row pt-3">
 
            
             <div class="col-sm-8 mx-auto">
                 <h2>1 - Qual imagem você mais se identifica ?  </h2>
+                <asp:Label ID="lblResposta" runat="server" Text="" Visible="false">
 
+                </asp:Label>
                 <asp:RadioButton ID="qui1" runat="server" CssClass="imagensQuiz "
                     Text='<img class="imagensQuiz " src="IMAGES/Icones/Beckers.jpg" />'
                     GroupName="pergunta1" />
@@ -193,11 +195,11 @@
             </div>
         </div>
         <div class="row ">
-            <div class="col-4 mx-auto">
+            <div class=" submit-btn col-4 mx-auto">
                 
                 <asp:Button 
                     ID="btnResultado"
-                    CssClass="btn btn-primary btn-lg"   
+                    CssClass="btn btn-primary btn-xl"   
                     runat="server" 
                     Text="Resultado"
                     PostBackUrl="~/resultadoQuiz.aspx"

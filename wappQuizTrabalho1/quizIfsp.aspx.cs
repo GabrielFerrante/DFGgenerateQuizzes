@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 using System.Web.UI;
 
 namespace wappQuizTrabalho1
@@ -8,7 +7,7 @@ namespace wappQuizTrabalho1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-           
+
         }
 
         public void ClearForm(ControlCollection controls)
@@ -34,9 +33,11 @@ namespace wappQuizTrabalho1
 
         protected void btnResultado_Click(object sender, EventArgs e)
         {
-            
+
+
 
 
         }
+
     }
 }

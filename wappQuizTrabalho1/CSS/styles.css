@@ -44,6 +44,12 @@ input[type="radio"]:checked + label {
     color:slategrey;
     text-align:center;
 }
+#contentBlock_PieChart1__ParentDiv {
+    border: none !important;
+}
+.mapPath{
+    color:darkcyan !important;
+}
 
 /*FEITOS POR NÓS FIM*/
 
