@@ -91,6 +91,7 @@
     <Content Include="IMAGES\Icones\Setup.jpg" />
     <Content Include="IMAGES\Icones\sun.png" />
     <Content Include="IMAGES\Icones\Torno.jpg" />
+    <Content Include="IMAGES\if.png" />
     <Content Include="IMAGES\MinuCurso\conheça-a-automação-residencial-810x540px-810x540.png" />
     <Content Include="IMAGES\MinuCurso\minuCurso.jpg" />
     <Content Include="IMAGES\MinuCurso\robo-advisor-consultoria-robo.png" />
@@ -157,6 +158,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="base.Master" />
+    <Content Include="App_Themes\tema1\tema1.skin" />
+    <Content Include="App_Themes\tema2\tema2.skin" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

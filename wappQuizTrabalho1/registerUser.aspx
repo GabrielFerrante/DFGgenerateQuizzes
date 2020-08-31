@@ -47,7 +47,18 @@
                                 runat="server"
                                 TargetControlID="txtDataNascimento"
                                 Format="dd/MM/yyyy"
-                                Animated="true" />
+                                Animated="true" 
+                                
+                                />
+                            <asp:RangeValidator
+                                ID="rvDataNascimento"
+                                runat="server"
+                                ErrorMessage="Idade deve ser entre 1 e 150 anos!"
+                               
+                                ControlToValidate="txtDataNascimento"
+                                Display="Dynamic" 
+                                
+                                />
                             <asp:RequiredFieldValidator
                                 ID="rfvDataNascimento"
                                 runat="server"
@@ -55,12 +66,7 @@
                                 Enabled="true"
                                 ControlToValidate="txtEmail"
                                 Display="Dynamic" />
-                            <asp:RangeValidator
-                                ID="rvDataNascimento"
-                                runat="server"
-                                ErrorMessage="Idade deve ser entre 1 e 150 anos!"
-                                ControlToValidate="txtDataNascimento"
-                                Display="Dynamic" />
+                            
                             <label for="DataNascimento">Data de Nascimento</label>
                         </div>
 

@@ -1,4 +1,4 @@
-﻿<%@ Page Title=""  Language="C#" MasterPageFile="~/base.Master" AutoEventWireup="true" CodeBehind="resultadoQuiz.aspx.cs" Inherits="wappQuizTrabalho1.resultadoQuiz" %>
+﻿<%@ Page Title="" Theme="tema2" Language="C#" MasterPageFile="~/base.Master" AutoEventWireup="true" CodeBehind="resultadoQuiz.aspx.cs" Inherits="wappQuizTrabalho1.resultadoQuiz" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="headBlock" runat="server">
     <title>Resultado</title>
@@ -19,7 +19,7 @@
                
             </ajaxToolkit:PieChart>
             <div class="submit-btn pt-5 mx-auto">
-                <asp:HyperLink ID="HyperLink1" NavigateUrl="~/quizIfsp.aspx" CssClass="btn btn-primary btn-xl" Text="Refazer o teste" runat="server"></asp:HyperLink>
+                <asp:HyperLink ID="HyperLink1" NavigateUrl="~/quizIfsp.aspx" Text="Refazer o teste" runat="server"></asp:HyperLink>
             </div>
 
         </div>

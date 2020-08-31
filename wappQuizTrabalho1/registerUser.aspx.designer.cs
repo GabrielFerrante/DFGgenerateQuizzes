@@ -69,15 +69,6 @@ namespace wappQuizTrabalho1
         protected global::AjaxControlToolkit.CalendarExtender CalendarExtender1;
 
         /// <summary>
-        /// rfvDataNascimento control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvDataNascimento;
-
-        /// <summary>
         /// rvDataNascimento control.
         /// </summary>
         /// <remarks>
@@ -85,6 +76,15 @@ namespace wappQuizTrabalho1
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RangeValidator rvDataNascimento;
+
+        /// <summary>
+        /// rfvDataNascimento control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvDataNascimento;
 
         /// <summary>
         /// txtEmail control.

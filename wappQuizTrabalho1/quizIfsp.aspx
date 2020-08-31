@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/base.Master" AutoEventWireup="true" CodeBehind="quizIfsp.aspx.cs" Inherits="wappQuizTrabalho1.quizIfsp" %>
+﻿<%@ Page Title=""  Language="C#" MasterPageFile="~/base.Master" AutoEventWireup="true" CodeBehind="quizIfsp.aspx.cs" Inherits="wappQuizTrabalho1.quizIfsp" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="headBlock" runat="server">
     <title>Quiz IFSP</title>
@@ -6,15 +6,26 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="contentBlock" runat="server">
    
         <!--PERGUNTA 1-->
+        <div class="col mx-auto text-center pt-5">
+                <asp:Image ID="Image1" ImageUrl="~/IMAGES/if.png" CssClass="text-center" Height="50px" runat="server" />
+                <h3  >
+                
+                     Descubra o curso do IFSP Campus Catanduva que mais combina com você !
+                </h3>
+            </div>
         
-        <div class="row pt-3">
-
+        <div class="row pt-3 align-items-center ">
            
-            <div class="col-sm-8 mx-auto">
-                <h2>1 - Qual imagem você mais se identifica ?  </h2>
-                <asp:Label ID="lblResposta" runat="server" Text="" Visible="false">
+            <asp:Label ID="lblErrorQuiz" runat="server" Text="" ForeColor="Black" Visible="false">
 
-                </asp:Label>
+            </asp:Label>
+            
+            
+           
+            <div class="col-sm-8 mx-auto ">
+            
+                <h2>1 - Qual imagem você mais se identifica ?  </h2>
+                
                 <asp:RadioButton ID="qui1" runat="server" CssClass="imagensQuiz "
                     Text='<img class="imagensQuiz " src="IMAGES/Icones/Beckers.jpg" />'
                     GroupName="pergunta1" />
@@ -33,7 +44,7 @@
 
         <!--PERGUNTA 2-->
         <div class="row">
-            <div class="col-sm-8 mx-auto">
+            <div class="col-sm-8 mx-auto ">
                 <h2>2 - Qual periodo você mais gosta de estudar ?  </h2>
 
                 <asp:RadioButton ID="ads2" runat="server" CssClass="imagensQuiz  "
@@ -50,7 +61,7 @@
 
         <!--PERGUNTA 3-->
         <div class="row">
-            <div class="col-sm-8 mx-auto">
+            <div class="col-sm-8 mx-auto ">
                 <h2>3 - Qual ambiente de trabalho você mais se identifica ?</h2>
 
                 <asp:RadioButton ID="eng3"  runat="server" CssClass="imagensQuiz  "
@@ -115,7 +126,7 @@
         <!--PERGUNTA 7-->
         <div class="row">
             <div class="col-sm-8 mx-auto">
-                <h2>7 - Qual substância que você mais gosta ?</h2>
+                <h2>7 - Qual substância recreativa que você mais gosta ?</h2>
 
                 <asp:RadioButton ID="qui7"  runat="server"
                     Text=" <h3 class=' descricao'>Psicoativos </h3>"

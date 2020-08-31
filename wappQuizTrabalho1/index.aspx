@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/base.Master" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="wappQuizTrabalho1.index" %>
+﻿<%@ Page Title="" Theme="tema2" Language="C#" MasterPageFile="~/base.Master" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="wappQuizTrabalho1.index" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="headBlock" runat="server">
     <title>Home</title>
 
@@ -24,7 +24,7 @@
               <h3>Quiz IFSP - Campus Catanduva</h3>
               <h3>Descubra o curso que mais combina com você!</h3>
               <asp:HyperLink 
-                  CssClass="btn btn-primary btn-xl "
+                  
                   NavigateUrl="~/quizIfsp.aspx" 
                   ID="HyperLink1" 
                   runat="server" 
