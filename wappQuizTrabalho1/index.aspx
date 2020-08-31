@@ -5,6 +5,21 @@
 </asp:Content>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="contentBlock" runat="server">
+    <section id="Services" class="content-section text-center">
+        <div class="container-fluid">
+            <div class="block-heading">
+                <h3>Crie seus próprios quizzes</h3>
+                <asp:HyperLink 
+                  
+                  NavigateUrl="~/registerUser.aspx" 
+                  ID="HyperLink2" 
+                  runat="server" 
+                  Text="Cadastre-se"/>
+            </div>
+   
+            </div>
+        </div>
+    </section>
    <section id="Services" class="content-section text-center">
     <div class="container">
       <div class="block-heading">
